@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background-color: black;
+}
+#snakeGame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px #fff solid;
+	display: block;
+}
+.text {
+	display: flex;
+	justify-content: center;
+	padding-top: 1%;
+	color: #fff;
+	font-size: 2vh;
+}
+#me {
+	text-decoration: none;
+	color: #fff;
+}
